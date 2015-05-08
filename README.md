@@ -18,7 +18,11 @@ Find out about installing Jekyll, keeping it updated (with GitHub Pages), config
 # Turning Jekyll off
 You can completely opt out of Jekyll processing by creating a file named .nojekyll in the root of your Page repository and pushing that file to GitHub. This should only be necessary if your site uses directories that begin with an underscore, as Jekyll sees these as special directories and does not copy them to the final destination.
 
+# INSERT GIST
 {% gist 5555251 %}
+
+# BETWEEN HERE
+
 
 # License
 The following directories and their contents are Copyright Jason Niemi. You may not reuse anything therein without my permission:
