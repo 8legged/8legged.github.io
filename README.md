@@ -4,7 +4,7 @@ It is automatically transformed by Jekyll into a static site whenever I push thi
 # Installing Jekyl
 I used the [github-pages](https://github.com/github/pages-gem) Ruby Gem to do this.
 
-## Health check
+### Health check
 Checks your GitHub Pages site for common DNS configuration issues.
 
 `github-pages health-check`
