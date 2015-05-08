@@ -1,6 +1,14 @@
 # This is the data for my blog
 It is automatically transformed by Jekyll into a static site whenever I push this repository to GitHub.
 
+# Installing Jekyl
+I used the [github-pages](https://github.com/github/pages-gem) Ruby Gem to do this.
+
+## Health check
+Checks your GitHub Pages site for common DNS configuration issues.
+
+`github-pages health-check`
+
 # Running Jekyll
 * Run `bundle exec jekyll serve`
 * Your site should be available at http://localhost:4000
@@ -14,4 +22,3 @@ You can completely opt out of Jekyll processing by creating a file named .nojeky
 The following directories and their contents are Copyright Jason Niemi. You may not reuse anything therein without my permission:
 * _posts/
 * images/
-
