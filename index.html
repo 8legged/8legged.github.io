@@ -32,6 +32,15 @@
             <hr>
 
             <section id="main_content">
+                <p>
+                    <ul>
+                        {% for post in site.posts %}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </p>
                 <h1>
                     <a id="this-is-the-data-for-my-blog" class="anchor" href="#this-is-the-data-for-my-blog" aria-hidden="true">
                         <span class="octicon octicon-link"></span>

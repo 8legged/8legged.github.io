@@ -1,7 +1,7 @@
 ---
 
 ---
-*Recorded at the [The George Washington University Tech Alumni Group](http://www.facebook.com/group.php?gid=154839957865223) Federal Executive Roundtable, November 4, 2010.*
+*RRRecorded at the [The George Washington University Tech Alumni Group](http://www.facebook.com/group.php?gid=154839957865223) Federal Executive Roundtable, November 4, 2010.*
 
 ![Photo of the panelists at the event](http://ben.balter.com/wp-content/uploads/2010/11/68153_493302469280_603259280_5451391_4928024_n-300x199.jpg "Steven Bucci, William Kirkendale, Brian Moran, Mark Rosenfeld, Mariano Tan ")
 
