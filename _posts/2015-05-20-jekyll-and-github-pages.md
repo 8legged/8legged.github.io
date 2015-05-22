@@ -1,8 +1,9 @@
 ---
+layout: post
+title: "My Static Site: GitHub Pages and Jekyll"
 ---
-
-# This is the data for my blog
-It is automatically transformed by Jekyll into a static site whenever I push this repository to GitHub.
+The data for my blog is automatically transformed by Jekyll into a static site 
+whenever I push its repository to GitHub.
 
 # Installing Jekyl
 I used the [github-pages](https://github.com/github/pages-gem) Ruby Gem to do this.
