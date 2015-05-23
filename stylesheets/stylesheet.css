@@ -27,12 +27,20 @@ div.posts article.post {
    margin-bottom: 1.5em;
 }
 
-div.posts article.post h3 {
+div.posts article.post h2 {
   margin-bottom: 0;
 }
 
 div.posts article.post div.entry p {
    margin-bottom: 0;
+}
+
+div.posts article.post h2 a {
+  color: #303030;
+}
+
+div.posts article.post div.entry ul {
+  margin-bottom: 0.125em;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -311,7 +319,7 @@ blockquote {
 ul li {
   list-style-position: inside;
   list-style: disc;
-  padding-left: 20px;
+  /* padding-left: .125em; */
 }
 
 ol li {
