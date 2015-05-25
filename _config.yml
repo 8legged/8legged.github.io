@@ -1,0 +1,8 @@
+name: "8legged"
+description: "Notes on JavaScript and Web Development"
+
+url: "http://localhost:4000"
+
+paginate: 3
+# pygments: true
+# http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
