@@ -6,3 +6,22 @@ url: "http://localhost:4000"
 paginate: 3
 # pygments: true
 # http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
+
+defaults:
+  scope:
+    path: ""
+    values:
+      layout: post
+  scope:
+    path: ""
+    type: linkblog
+  values:
+    layout: linkblog
+
+collections:
+  linkblog:
+    output: true
+    # permalink: /linkblog/:path/
+
+
+

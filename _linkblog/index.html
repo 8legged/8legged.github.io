@@ -1,0 +1,13 @@
+---
+layout: linkblog
+title: "My Linkblog"
+---
+{% for page in site.linkblog %}
+<article class="post">
+    <h2><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+    <div class="entry">
+        {{ page.excerpt }}
+    </div>
+    <a href="{{ site.baseurl }}{{ page.url }}" class="read-more">Read More</a>
+</article>
+{% endfor %}

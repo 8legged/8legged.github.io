@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Noted: I Need A Thesaurus - A List Of Online Thesauri"
+title: "Noted: A List Of Online Thesauri"
 ---
+Sometimes I Need A Thesaurus...
 
 * [Wordnik](https://www.wordnik.com/) - *All the words.* (Has the most words?)
 * [Thesaurus.com](http://www.thesaurus.com/)
