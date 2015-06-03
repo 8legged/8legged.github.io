@@ -34,7 +34,8 @@ div.posts article.post h2 {
 div.posts article.post div.entry p {
    margin-bottom: 0;
 }
-div.posts article.post a.read-more {
+
+a.read-more {
   font-weight: bold;
   color: #b9193c;
 }
@@ -50,6 +51,8 @@ div.posts article.post div.entry ul {
 div.posts article.post div.entry section code {
   margin-bottom: 0.125em;
 }
+
+
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -275,7 +278,7 @@ h1 {
   font-size: 4em;
 }
 
-h2 {
+h2 > a {
   margin-bottom: 8px;
   font-size: 2rem;
   color: #303030;
