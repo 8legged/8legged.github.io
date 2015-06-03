@@ -1,6 +1,6 @@
 ---
 layout: linkblog
-title: "Visualising Algorithms, Game Building, and More"
+title: "Visualizations in Games, Algorithms, and More"
 ---
 A bunch of links to keep track of cool sites.
 

@@ -1,6 +1,18 @@
 name: "8legged"
 description: "Notes on JavaScript and Web Development"
 
+# http://jekyllrb.com/docs/configuration/
+# The following defaults are set by GitHub, which you are free to override in
+# your _config.yml file:
+# highlighter: pygments
+# github: [Repository metadata]
+
+# GitHub overrides the following _config.yml values, which you are unable to
+# configure:
+# safe: true
+# lsi: false
+# source: your top-level directory
+
 url: "http://localhost:4000"
 
 paginate: 3
@@ -24,4 +36,73 @@ collections:
     # permalink: /linkblog/:path/
 
 
+# There are two unsupported kramdown options
+# Please note that both remove_block_html_tags and  remove_span_html_tags are currently unsupported in Jekyll due to the fact that they are not included within the kramdown HTML converter.
+# # Where things are
+# source:      .
+# destination: ./_site
+# plugins:     ./_plugins
+# layouts:     ./_layouts
+# data_source: ./_data
+# collections: null
 
+# # Handling Reading
+# safe:         false
+# include:      [".htaccess"]
+# exclude:      []
+# keep_files:   [".git", ".svn"]
+# encoding:     "utf-8"
+# markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# # Filtering Content
+# show_drafts: null
+# limit_posts: 0
+# future:      true
+# unpublished: false
+
+# # Plugins
+# whitelist: []
+# gems:      []
+
+# # Conversion
+markdown:    kramdown
+# highlighter: rouge
+# lsi:         false
+# excerpt_separator: "\n\n"
+
+# # Serving
+# detach:  false
+# port:    4000
+# host:    127.0.0.1
+# baseurl: "" # does not include hostname
+
+# # Outputting
+# permalink:     date
+# paginate_path: /page:num
+# timezone:      null
+
+# quiet:    false
+# defaults: []
+
+# # Markdown Processors
+# rdiscount:
+#   extensions: []
+
+# redcarpet:
+#   extensions: []
+
+# kramdown:
+#   auto_ids:       true
+#   footnote_nr:    1
+#   entity_output:  as_char
+#   toc_levels:     1..6
+#   smart_quotes:   lsquo,rsquo,ldquo,rdquo
+#   enable_coderay: false
+
+#   coderay:
+#     coderay_wrap:              div
+#     coderay_line_numbers:      inline
+#     coderay_line_number_start: 1
+#     coderay_tab_width:         4
+#     coderay_bold_every:        10
+#     coderay_css:               style
