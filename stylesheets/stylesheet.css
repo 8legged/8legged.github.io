@@ -55,30 +55,41 @@ div.posts article.post div.entry section code {
 .tag-cloud {
   list-style: none;
   padding: 0;
+  margin: 0 2em 0 2em;;
   text-align: justify;
   font-size: 16px;
-  li {
+}
+
+.tag-cloud li {
     display: inline-block;
-    margin: 0 12px 12px 0;
-  }
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.tag-cloud li a {
+  color: rgba(48, 48, 48, 0.38);
 }
 
 #archives {
   padding: 5px;
+  color: #b9193c
 }
 
 .archive-group {
-  margin: 5px;
-  border-top: 1px solid #ddd;
+  margin: 2em 0 0 0;
+  /*border-top: 1px solid #ddd;*/
 }
 
-.archive-item {
-  margin-left: 5px;
+.archive-group h2 {
+  border-bottom: 1px solid #ddd;
 }
 
+.archive-item h5 a {
+    color: #303030;
+}
 .post-tags {
   text-align: right;
 }
+
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -125,7 +136,8 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 0;
+  margin-bottom: 3em;
 }
 
 header h1 {
@@ -441,6 +453,7 @@ footer a:hover {
   .inner {
     width: 94%;
     margin: 0 auto;
+
   }
 }
 
@@ -449,3 +462,32 @@ footer a:hover {
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) { }
+
+nav ul {
+  display: block;
+  text-align: right;
+  padding: 0.5em;
+  margin: 0 0.5em 0 0;
+  /*background-color: #b9193c;*/
+  border-style: solid;
+  /*border-width: 1px;*/
+  border-bottom-width: 8px;
+  border-color: #b9193c;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0.125em 0.125em 0 0;
+  padding: 0.75em 0.75em 1em 0.75em;
+  text-align: right;
+  /*background-color: rgba(185, 25, 60, 0.11);*/
+  background-color: #b9193c;
+  /*border-width: 1px;*/
+  /*border-style: solid;*/
+  /*border-color: #b9193c;*/
+}
+
+nav ul li a {
+  color: white;
+  text-shadow: none;
+}
