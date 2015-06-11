@@ -1,6 +1,11 @@
 ---
 layout: linkblog
 title: "More Visualizations With Games and Algorithms"
+tags:
+- Visualizations
+- Algorithms
+- Games
+published: true
 ---
 A bunch of links to keep track of useful sites.
 

@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "My Static Site: GitHub Pages and Jekyll"
+tags:
+- Jekyll
+- GitHub
+published: true
 ---
-The data for my blog is automatically transformed by Jekyll into a static site 
+The data for my blog is automatically transformed by Jekyll into a static site
 whenever I push its repository to GitHub.
 
 # Installing Jekyl

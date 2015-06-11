@@ -1,8 +1,12 @@
 ---
 layout: post
 title: "Noted: Reference Resource - DMOZ"
+tags:
+- Categorization
+- Content
+published: true
 ---
-This might be useful for categorizing things...
+This might be useful for categorizing content...
 
 #### [DMOZ](http://www.dmoz.org/)
 The largest, most comprehensive human-edited directory of the Web. It is

@@ -1,6 +1,10 @@
 ---
 layout: post
 title: "gist-embed: Better Embedded Code Snippets"
+tags:
+- Gist
+- GitHub
+published: true
 ---
 An example of an embedded Gist using gist-embed
 <section>

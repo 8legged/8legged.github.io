@@ -2,6 +2,9 @@
 layout: post
 title: "Coding: Standards"
 excerpt: "A list of standards from The Turing School of Software & Design"
+tags:
+- Standards
+published: true
 ---
 The Turing School describes these standards as "*concepts that are known and
 can be demonstrated by a student who has mastery*".

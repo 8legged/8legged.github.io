@@ -1,6 +1,9 @@
 ---
 layout: linkblog
 title: "Where To Learn JavaScript Online"
+tags:
+- Learn to Code
+published: true
 ---
 #### Let’s Code: Test-Driven JavaScript
 Four main video channels:

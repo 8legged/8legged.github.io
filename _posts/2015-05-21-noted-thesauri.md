@@ -1,6 +1,9 @@
 ---
 layout: post
 title: "Noted: A List Of Online Thesauri"
+tags:
+- Thesaurus
+published: true
 ---
 Sometimes I Need A Thesaurus...
 

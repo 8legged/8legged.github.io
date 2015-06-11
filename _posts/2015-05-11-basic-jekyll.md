@@ -2,7 +2,7 @@
 layout: post
 title: "Basic Tasks: Jekyll"
 tags:
-- jekyll
+- Jekyll
 published: true
 ---
 <br />
