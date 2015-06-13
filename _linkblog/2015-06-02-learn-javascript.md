@@ -22,3 +22,12 @@ development, and build automation. It’s great for review and reference.
 ##### [The Lab](http://www.letscodejavascript.com/v3/episodes/lab)
 Advanced programmers will enjoy this channel's focus on exploring new tools and
 ideas.
+
+#### Eloquent JavaScript
+* [Code Sandbox](http://eloquentjavascript.net/code/)
+
+#### Khan Academy
+* [Intro to JS: Drawing & Animation](https://www.khanacademy.org/computing/computer-programming/programming)
+
+#### WatchMeCode
+* [watchmecode.net](https://sub.watchmecode.net/)

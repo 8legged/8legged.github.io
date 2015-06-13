@@ -289,8 +289,10 @@ em {
 }
 
 table {
+  /*width: 100%;*/
   width: 100%;
   border: 1px solid #ebebeb;
+  margin: 1em;
 }
 
 th {
@@ -298,9 +300,11 @@ th {
 }
 
 td {
-  font-weight: 300;
+  /*font-weight: 300;*/
+  color: #303030;
+  padding: 0.5rem;
   /*text-align: center;*/  /* this was screwing up formatting in gists */
-  border: 1px solid #ebebeb;
+  border: 1px solid #303030;
 }
 
 form {
