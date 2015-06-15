@@ -2,6 +2,28 @@
 layout: default
 title: Home
 ---
+<div>
+<blockquote cite="https://twitter.com/searls/status/609521655405113344">
+    <p>
+           <h6>Computer terms:</h4>
+    <ul>
+        <li>cloud = servers</li>
+        <li>algorithm = code</li>
+        <li>app = code w/an icon</li>
+        <li>reason about = understand</li>
+        <li>isomorphic = reused</li>
+        <li>technical debt = mess</li>
+    </ul>
+    </p>
+</blockquote>
+</div>
+
+<p>The W3C page <cite>About W3C</cite> says the W3C's
+mission is <q cite="http://www.w3.org/Consortium/">To lead the
+World Wide Web to its full potential by developing protocols and
+guidelines that ensure long-term growth for the Web</q>. I
+disagree with this mission.</p>
+
 <div class="posts">
     {% for post in site.posts %}
     <article class="post">
@@ -13,8 +35,9 @@ title: Home
     </article>
     {% endfor %}
 </div>
+
 <div class="pagination">
-    <h3>Pagination is broken, duplicate pages<br /><br /></h3>
+    <h3>Warning: Pagination shows duplicate pages<br /><br /></h3>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
   {% else %}
@@ -27,6 +50,24 @@ title: Home
     <span class="next ">Next</span>
   {% endif %}
 </div>
+
+{% comment %}
+<!--
+<p>start test 1</p>
+{#% paginate site.posts by 5 %}
+  {#% for post in site.posts %}
+stuff
+  {#% endfor %}
+{#% endpaginate %}
+<p>end test 1</p>
+ -->
+<!--
+<p>start test 2</p>
+{{ paginate | default_pagination }}
+<p>end test 2</p>
+ -->
+{% endcomment %}
+
 <div>
     <section id="downloads" class="clearfix">
         <a href="https://github.com/8legged/8legged.github.io/zipball/master" id="download-zip" class="button">

@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "Basic Tasks: Jekyll"
+title: "Using Jekyll and Liquid"
 tags:
 - Jekyll
+- Liquid
 published: true
 ---
+
+Here's a [good resource](https://docs.shopify.com/themes/liquid-documentation/basics)
+for Shopify's Liquid template language.
+
 <br />
 You can update your site name, avatar and other options using the
 _config.yml file in the root of your repository<br />

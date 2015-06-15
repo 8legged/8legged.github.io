@@ -16,20 +16,23 @@ description: "Notes on JavaScript and Web Development"
 url: "http://localhost:4000"
 
 paginate: 3
+
 # pygments: true
 # http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
 
 defaults:
   scope:
-    path: ""
-    values:
-      layout: post
+    path: "" # an empty string here means all files in the project
+    type: "posts"
+  values:
+    layout: post
+# linkblog
   scope:
-    path: ""
+    path: "" # an empty string here means all files in the project
     type: linkblog
   values:
     layout: linkblog
-
+# collections
 collections:
   linkblog:
     output: true
@@ -79,8 +82,7 @@ markdown:    kramdown
 # # Outputting
 # permalink:     date
 # paginate_path: /page:num
-# timezone:      null
-
+timezone:      America/Los_Angeles
 # quiet:    false
 # defaults: []
 

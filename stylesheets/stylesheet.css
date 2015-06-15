@@ -371,6 +371,7 @@ blockquote {
 }
 
 ul li {
+  font-size: 1rem;
   list-style-position: inside;
   list-style: none;
   margin-left: 1em;
@@ -378,6 +379,7 @@ ul li {
 }
 
 ul li a {
+  font-size: 1rem;
   color: #303030;
 }
 
