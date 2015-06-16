@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Static Site: GitHub Pages and Jekyll"
+title: "Static Sites with GitHub Pages and Jekyll"
 tags:
 - Jekyll
 - GitHub

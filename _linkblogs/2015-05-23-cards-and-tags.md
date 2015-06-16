@@ -1,6 +1,6 @@
 ---
 layout: linkblog
-title: "My Site: Cards and Tags"
+title: "Cards and Tags"
 tags:
 - Cards
 - Tags

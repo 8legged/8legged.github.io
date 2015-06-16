@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Noted: Reference Resource - DMOZ"
+title: "Categorization Per DMOZ"
 tags:
 - Categorization
 - Content

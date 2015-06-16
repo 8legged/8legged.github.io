@@ -1,8 +1,8 @@
 ---
 layout: linkblog
-title: "Flow-based Programming"
+title: "Flow-Based Programming"
 tags:
-- Flow-based Programming
+- Flow-Based Programming
 published: true
 ---
 Resources for visualizing code.

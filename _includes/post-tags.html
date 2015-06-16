@@ -2,6 +2,10 @@
 Tags:
 {% if post %}
   {% assign tags = post.tags %}
+{% comment %}
+{#% elsif %}
+  {#% assign tags = site.linkblog.tags %}
+{% endcomment %}
 {% else %}
   {% assign tags = page.tags %}
 {% endif %}

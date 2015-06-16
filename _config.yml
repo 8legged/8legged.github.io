@@ -19,26 +19,25 @@ paginate: 3
 
 # pygments: true
 # http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
+# collections
+collections:
+  linkblogs:
+    output: true
+    permalink: /linkblogs/:path/
 
 defaults:
   scope:
     path: "" # an empty string here means all files in the project
     type: "posts"
   values:
-    layout: post
-# linkblog
+    layout: "post"
+# linkblogs collection
   scope:
+    # path: "linkblogs"
     path: "" # an empty string here means all files in the project
-    type: linkblog
+    type: "linkblogs" # a collection in your site, in plural form
   values:
-    layout: linkblog
-# collections
-collections:
-  linkblog:
-    output: true
-    # permalink: /linkblog/:path/
-
-
+    layout: "linkblog"
 # There are two unsupported kramdown options
 # Please note that both remove_block_html_tags and  remove_span_html_tags are currently unsupported in Jekyll due to the fact that they are not included within the kramdown HTML converter.
 # # Where things are

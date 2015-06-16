@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "gist-embed: Better Embedded Code Snippets"
+title: "Embedded Code Snippets with 'gist-embed'"
 tags:
 - Gist
 - GitHub
 published: true
 ---
 An example of an embedded Gist using gist-embed
+
 <section>
   <code data-gist-id="9e907ead1ad5f0440a8d" data-gist-file="ruby-example.rb" data-gist-hide-footer="true" data-gist-highlight-line="1,3,5"></code>
 </section>
@@ -15,14 +16,15 @@ Include jQuery and gist-embed src
 
 {% highlight html %}
 <head>
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.1/gist-embed.min.js"></script>
 </head>
 {% endhighlight %}
 
 Add an HTML element to your page with a data attribute in the following format, where `<gist-id>` should be replaced with the id of your gist
-
+{% highlight html %}
     <code data-gist-id="<gist-id>"></code>
+{% endhighlight %}
 
 There's also a [RubyGem](https://github.com/itsNikolay/gist-embed-rails) and an [AngularJS library](https://github.com/pasupulaphani/angular-gist-embed)
 
@@ -66,7 +68,7 @@ Check out the [gist-embed website](http://blairvanderhoof.com/gist-embed/) and t
 #### Loading a list of line numbers from a gist (line 2, 3, 4)
 <code data-gist-id="5457668" data-gist-line="2,3,4"></code>
 
-<!-- #### Highlighting a list of line numbers from a gist (line 1, 3, 5) -->
+#### Highlighting a list of line numbers from a gist (line 1, 3, 5)
 <code data-gist-id="7922593" data-gist-highlight-line="1,3,5"></code>
 
 #### Loading a private gist
@@ -77,6 +79,34 @@ Check out the [gist-embed website](http://blairvanderhoof.com/gist-embed/) and t
 
 #### Loading a gist after the page has loaded
 <code id="after-page-load-test"></code>
+
+
+
+<script>
+$(function() {
+  var $afterPageLoadTest = $('#after-page-load-test');
+  var $code = $('<code data-gist-id="474f6d7839fccffc4b2a"/>');
+  var s = 6;
+  var interval;
+
+  $afterPageLoadTest.text(s);
+
+  interval = setInterval(function() {
+    s--;
+
+    if (s >= 0) {
+      $afterPageLoadTest.text(s);
+    } else {
+      $afterPageLoadTest.text('');
+      $code.appendTo($afterPageLoadTest).gist();
+      clearInterval(interval);
+    }
+  }, 1000);
+});
+</script>
+
+
+
 
 #### Loading a code element without a gist id data attribute
 <code>

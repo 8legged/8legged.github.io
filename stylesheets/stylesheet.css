@@ -240,27 +240,27 @@ code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
   /*font-size: 14px;*/
-  color: #222;
+  /*color: #222;*/
+  /*background-color: transparent;*/
 }
 
 code {
   padding: 0;  /* too many gist borders showing: padding: 0 3px; */
-  background-color: #f2f2f2;
+  /*background-color: transparent;*/
   border: 0; /* too many gist borders showing: border: solid 1px #ddd; */
 }
 
 pre {
   padding: 20px;
   overflow: auto;
-  /*color: #f2f2f2;*/
-  color: #545454; /* Darkened to fix invisible text in parts of gists. */
+  /*color: #545454;  Darkened to fix invisible text in parts of gists.*/
   text-shadow: none;
-  background: #303030;
+  /*background-color: transparent;*/
 }
 pre code {
   padding: 0;
-  color: #f2f2f2;
-  background-color: #303030;
+  /*color: #f2f2f2;*/
+  /*background-color: transparent;*/
   border: none;
 }
 
@@ -291,7 +291,7 @@ em {
 table {
   /*width: 100%;*/
   width: 100%;
-  border: 1px solid #ebebeb;
+  /*border: 1px solid #ebebeb;*/
   margin: 1em;
 }
 
@@ -304,7 +304,7 @@ td {
   color: #303030;
   padding: 0.5rem;
   /*text-align: center;*/  /* this was screwing up formatting in gists */
-  border: 1px solid #303030;
+  /*border: 1px solid #303030;*/
 }
 
 form {
@@ -414,10 +414,15 @@ footer a:hover {
   margin: 1em;
 }
 .gist .gist-file {
-  border: 0 !important;
+  /*border: 0 !important;*/
   margin-bottom: 0 !important;
   border-bottom-width: 0 !important;
+  /*border: 1px solid rgba(128, 128, 128, 0.25) !important;*/
 }
+.gist {
+  /*border: 1px solid rgba(128, 128, 128, 0.25) !important;*/
+}
+
 
 .highlight {
   border: 0 !important;
@@ -496,4 +501,24 @@ nav ul li {
 nav ul li a {
   color: white;
   text-shadow: none;
+}
+td.line-data {
+  /*border: 4px solid rgba(128, 128, 128, 0.25);*/
+}
+.line-numbers {
+  /*border: 1px solid rgba(128, 128, 128, 0.25) !important;*/
+}
+table.lines.highlight tbody tr {
+
+}
+/*table * {
+  border-collapse: collapse;
+  border-color: transparent !important;
+  }
+*/
+.gist-data.gist-syntax {
+  border: 1px solid rgba(128, 128, 128, 0.25) !important;
+}
+.gist-meta {
+  border: 1px solid rgba(128, 128, 128, 0.25) !important;
 }

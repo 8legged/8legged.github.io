@@ -2,11 +2,12 @@
 layout: default
 ---
 <article class="post">
-    <!-- <h2>{{ page.title }}</h2> -->
+    <h1>{{ page.title }}</h1>
     <div class="entry">
         {{ content }}
     </div>
     <div class="date">
-        Linkblog written on {{ linkblog.date | date: "%B %e, %Y" }}
+        Linkblog written on {{ page.date | date: "%B %e, %Y" }}
     </div>
 </article>
+

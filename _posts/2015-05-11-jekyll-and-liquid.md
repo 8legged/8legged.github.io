@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Using Jekyll and Liquid"
+title: "Jekyll and the Liquid Template Language"
 tags:
 - Jekyll
 - Liquid
+- Template Language
 published: true
 ---
-
 Here's a [good resource](https://docs.shopify.com/themes/liquid-documentation/basics)
 for Shopify's Liquid template language.
 

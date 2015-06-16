@@ -1,11 +1,14 @@
 ---
 layout: post
 title: "Classical Inheritance in JavaScript"
+tags:
+- Objects
+- Inheritance
+- Types
 ---
 ## Object Fundamentals
 
 ### Common JavaScript Types
-
 <table border="solid" width="1px">
   <caption><h4>Primitive Objects</h4></caption>
   <tbody>

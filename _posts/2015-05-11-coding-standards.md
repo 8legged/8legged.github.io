@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Coding: Standards"
+title: "Coding Standards"
 excerpt: "A list of standards from The Turing School of Software & Design"
 tags:
 - Standards

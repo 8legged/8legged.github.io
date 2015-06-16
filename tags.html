@@ -1,29 +1,36 @@
 ---
-layout: page
+layout: default
+title: "Tagged Pages"
 permalink: /tags/
 ---
+
 <h3>Linkblog tags aren't showing up here.<br /><br /></h3>
 <ul class="tag-cloud">
-{% for tag in site.tags %}
-  <li style="font-size {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">
-    <a href="#{{ tag | first | slugsize }}">
-      {{ tag | first }}
-    </a>
-  </li>
-{% endfor %}
+    {% for tag in site.tags %}
+    <li style="font-size {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70 }}%">
+        <a href="#{{ tag | first | slugsize }}">
+          {{ tag | first }}
+        </a>
+    </li>
+    {% endfor %}
 </ul>
 
 <div id="archives">
-{% for tag in site.tags %}
-  <div class="archive-group">
-  {% capture tag_name %}{{ tag | first }}{% endcapture %}
-    <h2 id="#{{ tag_name | slugsize }}">{{ tag_name }}</h2>
-    <a name="{{ tag_name | slugsize }}"></a>
-    {% for post in site.tags[tag_name] %}
-    <article class="archive-item">
-      <h5><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h5>
-    </article>
+    {% for tag in site.tags %}
+    <div class="archive-group">
+        {% capture tag_name %}{{ tag | first }}{% endcapture %}
+        <h2 id="#{{ tag_name | slugsize }}">{{ tag_name }}</h2>
+        <a name="{{ tag_name | slugsize }}"></a>
+        {% for post in site.tags[tag_name] %}
+        <article class="archive-item">
+            <h5><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h5>
+        </article>
+        {% endfor %}
+    </div>
     {% endfor %}
-  </div>
-{% endfor %}
+</div>
+
+# Remove when done
+<div>
+{{ site.pages }}
 </div>
