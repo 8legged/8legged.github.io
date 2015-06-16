@@ -6,6 +6,10 @@ tags:
 - GitHub
 published: true
 ---
+The code in [this repository](https://github.com/github/choosealicense.com)
+has been helpful when trying to figure out how to do things with Jekyll and
+GitHub Pages.
+
 The data for my blog is automatically transformed by Jekyll into a static site
 whenever I push its repository to GitHub.
 
