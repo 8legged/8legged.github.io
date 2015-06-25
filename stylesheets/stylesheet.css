@@ -28,6 +28,7 @@ article.post {
 }
 
 div.posts article.post h2 {
+  font-size: 2rem;
   margin-bottom: 0;
 }
 
@@ -518,7 +519,17 @@ table.lines.highlight tbody tr {
 */
 .gist-data.gist-syntax {
   border: 1px solid rgba(128, 128, 128, 0.25) !important;
+  background-color: #f7f7f7;
 }
 .gist-meta {
   border: 1px solid rgba(128, 128, 128, 0.25) !important;
+}
+
+tbody, th, tr, td {
+  border: 1px solid rgba(128, 128, 128, 0.5) !important;
+  padding: 0.5em;
+}
+article.markdown-body.js-file {
+  /*border: 3px solid pink;*/
+  padding: 0.5em;
 }

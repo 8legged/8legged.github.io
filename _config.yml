@@ -38,6 +38,10 @@ defaults:
     type: "linkblogs" # a collection in your site, in plural form
   values:
     layout: "linkblog"
+  scope:
+    path: ""
+    values:
+      today: "ludacris"
 # There are two unsupported kramdown options
 # Please note that both remove_block_html_tags and  remove_span_html_tags are currently unsupported in Jekyll due to the fact that they are not included within the kramdown HTML converter.
 # # Where things are
@@ -70,8 +74,7 @@ defaults:
 markdown:    kramdown
 # highlighter: rouge
 # lsi:         false
-# excerpt_separator: "\n\n"
-
+excerpt_separator: "\n\n"
 # # Serving
 # detach:  false
 # port:    4000

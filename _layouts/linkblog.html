@@ -2,12 +2,13 @@
 layout: default
 ---
 <article class="post">
-    <h1>{{ page.title }}</h1>
+    {% include post-tags.html %}
+    <h2>{{ page.title }}</h2>
     <div class="entry">
         {{ content }}
     </div>
     <div class="date">
-        Linkblog written on {{ page.date | date: "%B %e, %Y" }}
+        Linkblog written on {{ page.date | date: "%B %e, %Y" }}<br />
     </div>
 </article>
 
