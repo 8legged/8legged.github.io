@@ -8,8 +8,7 @@ tags:
 published: true
 ---
 
-[40+ Creative Resume CV HTML Templates](https://www.freshdesignweb.com/creative-resume-templates/)
-
-
+* [40+ Creative Resume CV HTML Templates](https://www.freshdesignweb.com/creative-resume-templates/)
+* [Aidan Feldman](http://afeld.me/)
 
 
