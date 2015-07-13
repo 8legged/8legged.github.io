@@ -71,7 +71,7 @@ Check out Rebecca Murphy for [Writing Testable JavaScript](https://youtu.be/Ozjo
 Watch: [Quick and Easy JavaScript Testing](https://www.youtube.com/embed/6Odb1gwv7J0).
 
 By now you may be seeing where frameworks like Backbone.js, Ember.js,
-Angular.js, Closure library and so on fit when developing client-side applications.
+Angular.js, Closure library and so on fit with client-side development.
 
 ### Javascript on Server
 So far we have dealt with JavaScript on the client side. Now we'll look at
