@@ -6,7 +6,6 @@ tags: ['Accessibility', 'A11Y']
 published: true
 
 ---
-
 * [The Accessibility Project](http://a11yproject.com/)
   * [Checklist](http://a11yproject.com/checklist.html)
   * [Patterns](http://a11yproject.com/patterns/)
