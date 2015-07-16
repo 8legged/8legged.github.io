@@ -8,4 +8,3 @@ published: true
 ---
 
 * [Unsplash](https://unsplash.com/) - Free High-Resolution Photos
-

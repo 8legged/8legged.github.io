@@ -4,7 +4,7 @@ title: "Accessibility on the Web"
 categories: []
 tags: ['Accessibility', 'A11Y']
 published: true
-
+excerpt: "Accessibility Projects & Resources"
 ---
 * [The Accessibility Project](http://a11yproject.com/)
   * [Checklist](http://a11yproject.com/checklist.html)
