@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Notes on Google Chrome URLs"
+title: "Tweaking Google Chrome: Chrome URLs"
 categories: []
 tags: ['Chrome', 'Google', 'Browsers', 'Chromium', 'Flags']
 published: true
