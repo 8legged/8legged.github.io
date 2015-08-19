@@ -1,9 +1,16 @@
 ---
 layout: default
 ---
+
 <article class="post">
-    {% include post-tags.html %}
-    <h2>{{ page.title }}</h2>
+    <section class="article-top">
+        <div>
+            <h1 class="post-heading">{{ page.title }}</h1>
+        </div>
+        <div>
+          {% include post-tags.html %}
+        </div>
+    </section>
     <div class="entry">
         {{ content }}
     </div>

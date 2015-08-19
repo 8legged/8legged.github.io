@@ -1,3 +1,8 @@
+* {
+
+  /*outline: 1px solid red;*/
+}
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -23,6 +28,17 @@ time, mark, audio, video {
 	border: 0;
 }
 
+.date {
+  font-size: 0.75em;
+  text-align: right;
+  margin: 5rem auto;
+  color: #9e9d9d;
+}
+
+.article-top {
+  border-bottom: 3px solid lightgrey;
+  margin: 0 auto 2rem;
+}
 article.post {
    margin-bottom: 1.5em;
 }
@@ -123,8 +139,8 @@ body {
   /* font-size: 1em; */
   line-height: 1.5;
   color: #6d6d6d;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
+  background: #e7e7e7;
 }
 
 a {
@@ -148,6 +164,12 @@ header h1 {
   letter-spacing: 0px;
 }
 
+h1.post-heading {
+  font-size: 2rem;
+  /*margin: 0 auto 2rem;*/
+
+}
+
 header h2 {
   font-size: 2rem;
   font-weight: normal;
@@ -158,7 +180,9 @@ header h2 {
 
 #container {
   min-height: 595px;
+  background: #eaeaea;
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  margin: 5px 2.5%;
 }
 
 .inner {
@@ -265,6 +289,11 @@ pre code {
   border: none;
 }
 
+.lineno {
+  font-size: 0.75em;
+  color: lightgrey;
+}
+
 ul, ol, dl {
   margin-bottom: 20px;
 }
@@ -291,17 +320,19 @@ em {
 
 table {
   /*width: 100%;*/
-  width: 100%;
   /*border: 1px solid #ebebeb;*/
-  margin: 1em;
+  /*margin: 1em;*/
+  margin: 0 auto;
 }
 
 th {
-  font-weight: 500;
+  font-size: 0.5rem;
+  font-weight: 700;
 }
 
 td {
   /*font-weight: 300;*/
+  font-size: 0.5rem;
   color: #303030;
   padding: 0.5rem;
   /*text-align: center;*/  /* this was screwing up formatting in gists */
@@ -318,7 +349,11 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 h1 {
-  font-size: 4em;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 h2 > a {
@@ -373,8 +408,7 @@ blockquote {
 
 ul li {
   font-size: 1rem;
-  list-style-position: inside;
-  list-style: none;
+  list-style: disc outside; /* shorthand: <'list-style-type'> || <'list-style-position'> || <'list-style-image'> */
   margin-left: 1em;
   /*color: green;*/
 }
@@ -528,8 +562,10 @@ table.lines.highlight tbody tr {
 tbody, th, tr, td {
   border: 1px solid rgba(128, 128, 128, 0.5) !important;
   padding: 0.5em;
+  margin: 0 auto;
 }
 article.markdown-body.js-file {
   /*border: 3px solid pink;*/
   padding: 0.5em;
 }
+

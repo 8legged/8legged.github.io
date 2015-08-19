@@ -22,7 +22,7 @@ highlight, look for the “short name” on Pygments’
 [wiki](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers).
 
 ##### Highlighted Code Example
-{% highlight ruby %}
+{% highlight ruby linenos %}
 # ruby
 def foo
   puts 'foo'
@@ -34,7 +34,7 @@ end
 <br />
 
 ##### Highlighted Code Example
-{% highlight javascript %}
+{% highlight javascript linenos %}
 // javascript
 var num = 1;
 var newNum = ++num;

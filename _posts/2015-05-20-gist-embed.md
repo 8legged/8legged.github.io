@@ -7,13 +7,11 @@ tags:
 published: true
 ---
 An example of an embedded Gist using gist-embed
-
 <section>
   <code data-gist-id="9e907ead1ad5f0440a8d" data-gist-file="ruby-example.rb" data-gist-hide-footer="true" data-gist-highlight-line="1,3,5"></code>
 </section>
 
 Include jQuery and gist-embed src
-
 {% highlight html %}
 <head>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -80,8 +78,6 @@ Check out the [gist-embed website](http://blairvanderhoof.com/gist-embed/) and t
 #### Loading a gist after the page has loaded
 <code id="after-page-load-test"></code>
 
-
-
 <script>
 $(function() {
   var $afterPageLoadTest = $('#after-page-load-test');
@@ -104,9 +100,6 @@ $(function() {
   }, 1000);
 });
 </script>
-
-
-
 
 #### Loading a code element without a gist id data attribute
 <code>
