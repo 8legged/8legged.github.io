@@ -5,8 +5,9 @@ tags:
 - Gist
 - GitHub
 published: true
+excerpt: "Examples of embedded Gists using 'gist-embed'"
 ---
-An example of an embedded Gist using gist-embed
+
 <section>
   <code data-gist-id="9e907ead1ad5f0440a8d" data-gist-file="ruby-example.rb" data-gist-hide-footer="true" data-gist-highlight-line="1,3,5"></code>
 </section>

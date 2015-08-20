@@ -4,7 +4,7 @@ title: "Responsive Images"
 categories: []
 tags: ['Responsive', 'Images']
 published: true
-excerpt: "Implementing Responsive Images"
+excerpt: "Implementing responsive images"
 ---
 
 ## Resources

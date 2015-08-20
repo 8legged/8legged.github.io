@@ -43,3 +43,5 @@ a:hover {
 
 ## Tools
 - [Autoprefixer CSS Online](https://autoprefixer.github.io/)
+- [Prefix free](https://leaverou.github.io/prefixfree/): Break free from CSS vendor prefix hell!
+- [Visual Dictionary of CSS](http://xahlee.info/js/css_index.html)
