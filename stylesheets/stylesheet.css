@@ -182,7 +182,7 @@ header h2 {
 #container {
   min-height: 595px;
   background: #eaeaea;
-  background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
+  /*background: transparent url(../images/highlight-bg.jpg) 90% 0 no-repeat;*/
   margin: 5px 2.5%;
 }
 

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "favorites"
+title: "Favorites"
 categories: []
-tags: ['_missing tag']
+tags: ["Favorites", "Color"]
 published: true
 excerpt: "My favorite resources"
 ---
