@@ -140,7 +140,8 @@ body {
   line-height: 1.5;
   color: #6d6d6d;
   /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*/
-  background: #e7e7e7;
+  /*background: #e7e7e7;*/
+  background: #b8b8b8;
 }
 
 a {
@@ -429,9 +430,7 @@ dl dt {
 }
 
 footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 40px;
+  margin: 2em 0 1em;
   font-size: 13px;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
@@ -442,6 +441,10 @@ footer a {
 }
 footer a:hover {
   color: #444;
+}
+
+footer div > section#downloads {
+  margin: 0;
 }
 
 /* MISC */

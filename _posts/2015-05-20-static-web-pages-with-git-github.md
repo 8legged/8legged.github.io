@@ -1,17 +1,26 @@
 ---
 layout: post
-title: "Static Sites with GitHub Pages and Jekyll"
+title: "Static Sites and GitHub (or Gist)"
 tags:
 - Jekyll
 - GitHub
+- Gist
+- GitHub Pages
+- Static Sites
 published: true
+excerpt: "Quickly and easy ways to view your code as a web page"
 ---
+#### Resources
+- [RawGit](http://rawgit.com/)
+- [GitHub & BitBucket HTML Preview](https://htmlpreview.github.io/)
+- [bl.ocks.org](http://bl.ocks.org/)
+- [Jekyll](http://jekyllrb.com/)
+
 The code in [this repository](https://github.com/github/choosealicense.com)
-has been helpful when trying to figure out how to do things with Jekyll and
-GitHub Pages.
+has been helpful when working with Jekyll and GitHub Pages.
 
 Ben Balter's post ["Explain like I’m five: Jekyll collections"](http://ben.balter.com/2015/02/20/jekyll-collections/)
-has also been helpful.
+has also been very useful.
 
 The data for my blog is automatically transformed by Jekyll into a static site
 whenever I push its repository to GitHub.
