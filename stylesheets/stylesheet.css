@@ -1,7 +1,8 @@
+/*
 * {
-
-  /*outline: 1px solid red;*/
+  outline: 1px solid red;
 }
+*/
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
@@ -124,7 +125,7 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+	content: ''; /* remove quotes in case "none" fails below */
 	content: none;
 }
 table {
@@ -323,7 +324,7 @@ table {
   /*width: 100%;*/
   /*border: 1px solid #ebebeb;*/
   /*margin: 1em;*/
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 th {
@@ -400,13 +401,6 @@ p a {
   font-weight: 400;
 }
 
-blockquote {
-  padding: 0 0 0 30px;
-  margin-bottom: 20px;
-  font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
-}
-
 ul li {
   font-size: 1rem;
   list-style: disc outside; /* shorthand: <'list-style-type'> || <'list-style-position'> || <'list-style-image'> */
@@ -442,12 +436,30 @@ footer a {
 footer a:hover {
   color: #444;
 }
-
 footer div > section#downloads {
   margin: 0;
 }
 
 /* MISC */
+figure.quote {
+  margin: 2rem 0;
+  padding: 0 1rem;
+  border-left: 1px dotted #bfbfbf
+}
+figure.quote > blockquote {
+  line-height: 1.5rem;
+  font-size: 1.3rem;
+  font-style: italic;
+}
+figure.quote > figcaption {
+  line-height: 2.75rem;
+  /*margin: 0.5rem 0;*/
+  /*font-size: 0.5rem;*/
+  font-style: italic;
+}
+figure.quote > blockquote + figcaption:before {
+  content: '—';
+}
 .page_number {
   margin: 1em;
 }
@@ -460,8 +472,6 @@ footer div > section#downloads {
 .gist {
   /*border: 1px solid rgba(128, 128, 128, 0.25) !important;*/
 }
-
-
 .highlight {
   border: 0 !important;
 }
