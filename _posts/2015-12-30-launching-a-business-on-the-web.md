@@ -4,9 +4,9 @@ title: "Launching a Business on the Web"
 categories: []
 tags: ['_missing tag']
 published: true
-
+excerpt_separator: <!-- excerpt -->
 ---
-Note's from Will's post on ["How to build and launch a web product: an operational framework"](https://medium.com/@wclittle/how-to-build-and-launch-a-web-product-2f3a48d63327#.shwx7ygla)
+Note's from Will's<!-- excerpt --> post on ["How to build and launch a web product: an operational framework"](https://medium.com/@wclittle/how-to-build-and-launch-a-web-product-2f3a48d63327#.shwx7ygla)
 
 The order below matters, though many steps can be worked on in parallel - don’t
 get too far ahead.
