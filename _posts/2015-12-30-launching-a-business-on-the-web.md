@@ -10,8 +10,7 @@ Note's from a post on ["How to build and launch a web product: an operational fr
 
 <!-- excerpt -->
 
-The order below matters, though many steps can be worked on in parallel - don’t
-get too far ahead.
+The order below matters, though many steps can be worked on in parallel - don’t get too far ahead.
 
 ### The basic outline
 *Links to articles are updated as they're written*
