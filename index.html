@@ -11,40 +11,7 @@ title: Home
 </div>
 <div>
     <!-- <blockquote cite="https://twitter.com/searls/status/609521655405113344"> -->
-    <table>
-        <thead>
-            <tr>
-                <th>jargon</th>
-                <th>normal</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>cloud</td>
-                <td>servers</td>
-            </tr>
-            <tr>
-                <td>algorithm</td>
-                <td>code</td>
-            </tr>
-            <tr>
-                <td>app</td>
-                <td>code w/an icon</td>
-            </tr>
-            <tr>
-                <td>reason about</td>
-                <td>understand</td>
-            </tr>
-            <tr>
-                <td>isomorphic</td>
-                <td>reused</td>
-            </tr>
-            <tr>
-                <td>technical debt</td>
-                <td>mess</td>
-            </tr>
-        </tbody>
-    </table>
+{% include jargon.html %}
     <!-- </blockquote> -->
 </div>
 
@@ -55,7 +22,8 @@ title: Home
     <figcaption>The One Minute Manager by Ken Blanchard, PhD & Spencer Johnson, MD</figcaption>
 </figure>
 
-
+{% comment %}
+<!--
 <div class="posts">
     {% for post in site.posts %}
     <article class="post">
@@ -67,6 +35,22 @@ title: Home
     </article>
     {% endfor %}
 </div>
+-->
+{% endcomment %}
+
+<div class="posts">
+    {% for post in site.posts %}
+    <article class="post">
+        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <div class="entry">
+            {{ post.excerpt }}
+        </div>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+    {% endfor %}
+</div>
+
+
 
 <div class="pagination">
     <h3>Warning: Pagination shows duplicate pages<br /><br /></h3>

@@ -6,7 +6,7 @@ tags: ['_missing tag']
 published: true
 excerpt_separator: <!-- excerpt -->
 ---
-Note's from a post on ["How to build and launch a web product: an operational framework"](https://medium.com/@wclittle/how-to-build-and-launch-a-web-product-2f3a48d63327#.shwx7ygla)
+Note's from a post on ["How to build and launch a web product: an operational framework"](https://medium.com/@wclittle/how-to-build-and-launch-a-web-product-2f3a48d63327#.shwx7ygla).
 
 <!-- excerpt -->
 
