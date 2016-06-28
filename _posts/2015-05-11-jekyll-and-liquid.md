@@ -8,7 +8,7 @@ tags:
 published: true
 ---
 Here's a [good resource](https://docs.shopify.com/themes/liquid-documentation/basics)
-for Shopify's Liquid template language.
+on Shopify's Liquid template language.
 
 <br />
 You can update your site name, avatar and other options using the

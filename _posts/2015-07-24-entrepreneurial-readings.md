@@ -1,10 +1,9 @@
 ---
 layout: post
 title: "Entrepreneurial Readings"
-categories: []
+categories: ['Entrepreneurship']
 tags: ['Entrepreneurship']
 published: true
-excerpt: []
 ---
 A list of published articles and books for entrepreneurs.
 
@@ -21,4 +20,3 @@ A list of published articles and books for entrepreneurs.
   * *by Rick Frishman and Robyn Freedman Spizman*
 * **The 22 Immutable Laws of Marketing**
   * *by Al Ries and Jack Trout*
-
