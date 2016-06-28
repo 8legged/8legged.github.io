@@ -15,7 +15,7 @@ description: "Notes on JavaScript and Web Development"
 
 url: "http://localhost:4000"
 
-paginate: 3
+paginate: 6
 
 # pygments: true
 # http://learn.andrewmunsell.com/learn/jekyll-by-example/tutorial
@@ -68,7 +68,7 @@ defaults:
 
 # # Plugins
 # whitelist: []
-# gems:      []
+gems:      ['jekyll-paginate']
 
 # # Conversion
 markdown:    kramdown
@@ -83,7 +83,7 @@ excerpt_separator: "\n\n"
 
 # # Outputting
 # permalink:     date
-# paginate_path: /page:num
+paginate_path: /page:num
 timezone:      America/Los_Angeles
 # quiet:    false
 # defaults: []
