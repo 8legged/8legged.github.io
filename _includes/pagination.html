@@ -1,0 +1,31 @@
+<div class="pagination">
+    <h3>Warning: Pagination is showing duplicate posts<br /><br /></h3>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+  {% else %}
+    <span class="previous">Previous</span>
+  {% endif %}
+<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
+
+{% comment %}
+<!--
+<p>start test 1</p>
+{#% paginate site.posts by 5 %}
+  {#% for post in site.posts %}
+stuff
+  {#% endfor %}
+{#% endpaginate %}
+<p>end test 1</p>
+ -->
+<!--
+<p>start test 2</p>
+{{ paginate | default_pagination }}
+<p>end test 2</p>
+ -->
+{% endcomment %}

@@ -1,85 +1,18 @@
 ---
 layout: default
-title: Home
+title: 8legged Blog Home
 ---
 
-<div class="goals">
-    <p>
-      Working to make the web as fast as possible, highly readable, responsive,
-      and easy to navigate. User and open source advocate.
-    </p>
-</div>
+{% include goals.html %}
+
 <div>
     <!-- <blockquote cite="https://twitter.com/searls/status/609521655405113344"> -->
 {% include jargon.html %}
     <!-- </blockquote> -->
 </div>
 
-<figure class="quote">
-    <blockquote>
-        Take a minute: look at your goals, look at your performance, see if your behavior matches your goals.
-    </blockquote>
-    <figcaption>The One Minute Manager by Ken Blanchard, PhD & Spencer Johnson, MD</figcaption>
-</figure>
+{% include quote.html %}
 
+{% include main-page-posts.html %}
 
-
-<div class="posts">
-    {% for post in site.posts %}
-    <article class="post">
-        {% comment %}
-        <!--
-        <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-        -->
-        {% endcomment %}
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        <div class="entry">
-            {{ post.excerpt }}
-        </div>
-        {% comment %}
-        <!--
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-        -->
-        {% endcomment %}
-        <a href="{{ post.url }}" class="read-more">Read More</a>
-    </article>
-    {% endfor %}
-</div>
-
-
-
-
-
-
-
-<div class="pagination">
-    <h3>Warning: Pagination shows duplicate pages<br /><br /></h3>
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-<span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</div>
-
-{% comment %}
-<!--
-<p>start test 1</p>
-{#% paginate site.posts by 5 %}
-  {#% for post in site.posts %}
-stuff
-  {#% endfor %}
-{#% endpaginate %}
-<p>end test 1</p>
- -->
-<!--
-<p>start test 2</p>
-{{ paginate | default_pagination }}
-<p>end test 2</p>
- -->
-{% endcomment %}
+{% include pagination.html %}
