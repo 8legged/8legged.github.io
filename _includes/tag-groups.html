@@ -1,0 +1,14 @@
+<div id="archives">
+    {% for tag in site.tags %}
+    <div class="archive-group">
+        {% capture tag_name %}{{ tag | first }}{% endcapture %}
+        <h2 id="#{{ tag_name | slugsize }}">Tagged: {{ tag_name }}</h2>
+        <a name="{{ tag_name | slugsize }}"></a>
+        {% for post in site.tags[tag_name] %}
+        <article class="archive-item">
+            <h5><a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h5>
+        </article>
+        {% endfor %}
+    </div>
+    {% endfor %}
+</div>
