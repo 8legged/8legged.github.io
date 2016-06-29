@@ -8,9 +8,9 @@
     {% endfor %}
 </ul>
 
-
-<!-- Linkblog tag cloud is missing. See _includes/tag-cloud.html -->
-<!-- The linkblog collection uses 'for linkblog in site.linkblogs' -->
+<!-- TODO: the linkblog tag cloud is missing. See _includes/tag-cloud.html -->
+<!-- The linkblog collection uses 'for linkblog in site.linkblogs' but using
+using this format below hasn't worked -->
 <ul class="tag-cloud">
     {% for tag in linkblogs.tags %}
     <li style="font-size {{ tag | last | size | times: 100 | divided_by: linkblogs.tags.size | plus: 70 }}%">
