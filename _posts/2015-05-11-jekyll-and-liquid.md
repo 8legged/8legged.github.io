@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll and the Liquid Template Language"
+title: "Jekyll and Liquid"
 tags:
 - Jekyll
 - Liquid

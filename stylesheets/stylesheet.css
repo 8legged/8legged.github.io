@@ -584,9 +584,10 @@ article.markdown-body.js-file {
 
 /*jn additions*/
 .skinnytip {
-	border-bottom: 1px dotted #999;
+	border-bottom: 0.5px dotted hsla(0, 0%, 0%, 0.2);
 	cursor: pointer;
 }
+
 .popover {
 		position: absolute;
 		display: none;
@@ -632,7 +633,10 @@ article.markdown-body.js-file {
 }
 
 .tip {
-		text-decoration: underline;
-		font-weight: bold;
+		border-bottom: 0.5px dotted hsla(0, 0%, 0%, 0.2);
 		cursor: pointer;
+		border-
+		/*text-decoration: underline;*/
+		/*font-weight: bold;*/
+
 }
