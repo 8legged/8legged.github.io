@@ -11,4 +11,8 @@ Using JavaScript for popovers and tooltips in Jekyll.
 
 <!-- excerpt -->
 
-{% include tooltips-popovers.html %}
+{% include popovers.html %}
+
+---
+
+{% include tooltips.html %}
