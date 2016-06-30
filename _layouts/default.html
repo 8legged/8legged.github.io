@@ -3,7 +3,13 @@
 
 <head>
     <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A Lonely Web Developer's Blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="apple-touch-icon" href="apple-touch-icon.png">     -->
+    <!-- Place favicon.ico in the root directory -->
+
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/stylesheets/pygment_trac.css" media="screen">
@@ -16,6 +22,7 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <script type="text/javascript" src="/./javascripts/skinnytip.js"></script>
 </head>
 
 <body>
@@ -49,6 +56,18 @@
             </footer>
         </div>
     </div>
+
+    <script type="text/javascript">
+    SkinnyTip.init();
+    </script>
+
+    <script src="/./javascripts/tip.js"></script>
+    <script>
+    (function() {
+        window.vanillaTip.init();
+    })();
+    </script>
+
 </body>
 
 </html>
