@@ -583,20 +583,28 @@ article.markdown-body.js-file {
 }
 
 /*jn additions*/
+/* Tooltip styles */
 .skinnytip {
 	border-bottom: 0.5px dotted hsla(0, 0%, 0%, 0.2);
 	cursor: pointer;
 }
 
+/* Popover styles */
+/* Outer positioning occurs in the popover.js file */
+.tip {
+		font-weight: bold;
+		border-bottom: 0.5px dotted hsla(0, 0%, 0%, 0.2);
+		cursor: pointer;
+}
+
 .popover {
 		position: absolute;
+		color: #fff;
+		font-weight: lighter;
 		display: none;
 		max-width: 300px;
-		background-color: #ffe;
-		border: 1px solid #666;
+		background-color: hsla(0, 0%, 0%, 0.7);
 		border-radius: 3px;
-		box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-		-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
 }
 
 .popover .popover-content {
@@ -606,7 +614,7 @@ article.markdown-body.js-file {
 .popover .arrow {
 		border-style: solid;
 		border-color: transparent;
-		border-top-color: #666;
+		/*border-top-color: #666;*/
 		border-width: 11px;
 		border-bottom-width: 0;
 		bottom: -11px;
@@ -625,18 +633,9 @@ article.markdown-body.js-file {
 		border-style: solid;
 		border-width: 10px;
 		border-bottom-width: 0;
-		border-top-color: #ffe;
+		border-top-color: hsla(0, 0%, 0%, 0.7);
 		position: absolute;
 		display: block;
 		width: 0;
 		height: 0;
-}
-
-.tip {
-		border-bottom: 0.5px dotted hsla(0, 0%, 0%, 0.2);
-		cursor: pointer;
-		border-
-		/*text-decoration: underline;*/
-		/*font-weight: bold;*/
-
 }
