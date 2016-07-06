@@ -44,7 +44,7 @@ Here's the resulting html:
 </div>
 ```
 
-Finally, our JavaScript executes, appending the popover and its content to the bottom of the page:
+Finally, our JavaScript appends the popover and its content to the bottom of the page:
 
 ```html
 <!-- Note: Style and Class data was written by popover.js -->
