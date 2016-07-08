@@ -1,4 +1,4 @@
-jekyll: "Jekyll is a static site generator that builds sites using most modern web technologies. <a href='https://www.techopedia.com/definition/1320/canonical'>source</a>"
+jekyll: "Jekyll is a static site generator that builds sites using most modern web technologies. <a href='http://jekyllrb.com/'>Learn more</a>"
 
 fractious: "Like a little mischevious child, full of annoying and constant trouble."
 
@@ -22,7 +22,7 @@ isomorphic: "Reused"
 
 technical_debt: "Mess"
 
-cannonical: "TODO: Pick one of these<br />1. Canonical, in computer science, is the standard state or behavior of an attribute. This term is borrowed from mathematics, where it is used to refer to concepts that are unique and/or natural.<br />2. Authoritative or standard; conforming to an accepted rule or procedure. When referring to programming, canonical means conforming to well-established patterns or rules. The term is typically used to describe whether or not a programming interface follows the already established standard.<br />3. When this word is used by programmers, it is a synonym for 'authoritative,' 'standard,' or 'official.' That's meaning number 3 in the definition you quote. It implies that there is one best, most official, most standard way to represent the string object and this is it."
+cannonical: "TODO: Pick one of these<br />1. Canonical, in computer science, is the standard state or behavior of an attribute. This term is borrowed from mathematics, where it is used to refer to concepts that are unique and/or natural.<br />2. Authoritative or standard; conforming to an accepted rule or procedure. When referring to programming, canonical means conforming to well-established patterns or rules. The term is typically used to describe whether or not a programming interface follows the already established standard.<br />3. When this word is used by programmers, it is a synonym for 'authoritative,' 'standard,' or 'official.' That's meaning number 3 in the definition you quote. It implies that there is one best, most official, most standard way to represent the string object and this is it. <a href='https://www.techopedia.com/definition/1320/canonical'>source</a>"
 
 CNAME: "CNAMEs specify an alias or nickname for the canonical host name record in domain name systems."
 

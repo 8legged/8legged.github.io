@@ -47,7 +47,7 @@ Here's the resulting html:
 Finally, our JavaScript appends the popover and its content to the bottom of the page:
 
 ```html
-<!-- Note: Style and Class data was written by popover.js -->
+<!-- Style and Class data was written by popover.js -->
 <div class="popover top popover-clone popover-clone" style="display: block; position: absolute; left: 10px; top: 238px;">
     <div class="arrow" style="left: 107.547px;"></div>
     <div class="popover-content">
