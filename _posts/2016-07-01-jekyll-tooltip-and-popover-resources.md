@@ -7,7 +7,7 @@ published: true
 excerpt_separator: <!-- excerpt -->
 ---
 [This site](http://andeon.github.io/askey/apps/gimp/) by
-[Anderson Prado](https://github.com/andeon/) inspired me to try using tooltips
+[Anderson Prado](https://github.com/andeon/) inspired me to use tooltips
 and popovers to quickly look up things that I often forget.
 
 <!-- excerpt -->
