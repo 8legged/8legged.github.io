@@ -50,6 +50,7 @@ defaults:
 # plugins:     ./_plugins
 # layouts:     ./_layouts
 # data_source: ./_data
+# includes_dir: ./_includes
 # collections: null
 
 # # Handling Reading

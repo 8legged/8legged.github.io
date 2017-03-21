@@ -1,0 +1,44 @@
+- name: "jekyll"
+  definition: "Jekyll is a static site generator that builds sites using most modern web technologies. <a href='http://jekyllrb.com/'>Learn more</a>"
+
+- name: "fractious"
+  definition: "Like a little mischevious child, full of annoying and constant trouble."
+
+- name: "gratuitous"
+  definition: "Something that is unwarranted and uncouth, like the social equivalent of a flagrant foul."
+
+- name: "haughty"
+  definition: "Proud and flaunting it. Holding your head high up like a snooty, too-good-for-everything rich person."
+
+- name: "impertinent"
+  definition: "Someone acting rude and insensitive to others."
+
+- name: "intrepid"
+  definition: "Brave and courageous especially in a difficult, dangerous situation."
+
+- name: "cloud"
+  definition: "Servers"
+
+- name: "algorithm"
+  definition: "Code"
+
+- name: "app"
+  definition: "Code with an icon"
+
+- name: "reason about"
+  definition: "Understand"
+
+- name: "isomorphic"
+  definition: "Reused"
+
+- name: "technical debt"
+  definition: "Mess"
+
+- name: "cannonical"
+  definition: "TODO: Pick one of these<br />1. The standard state or behavior of an attribute. This term is borrowed from mathematics, where it is used to refer to concepts that are unique and/or natural.<br />2. Authoritative or standard; conforming to an accepted rule or procedure. When referring to programming, canonical means conforming to well-established patterns or rules. The term is typically used to describe whether or not a programming interface follows the already established standard.<br />3. A synonym for 'authoritative,' 'standard,' or 'official'. It implies that there is one best, most official, most standard way to represent the string object and this is it. <a href='https://www.techopedia.com/definition/1320/canonical'>Learn more</a>"
+
+- name: "CNAME"
+  definition: "CNAMEs specify an alias or nickname for the canonical host name record in domain name systems."
+
+- name: "hsla"
+  definition: "The hue-saturation-lightness-alpha model. <a href='https://developer.mozilla.org/en-US/docs/Web/CSS/color_value#hsla()'>Learn more</a>"

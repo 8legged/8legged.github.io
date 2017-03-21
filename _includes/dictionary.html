@@ -1,0 +1,5 @@
+<ul>
+{% for term in site.data.terms %}
+  <li><strong>{{ term.name | capitalize }}:</strong> {{ term.definition }}</li>
+{% endfor %}
+</ul>
